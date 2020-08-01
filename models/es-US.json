@@ -1,31 +1,93 @@
 {
-	"interactionModel": {
-		"languageModel": {
-			"invocationName": "hola mundo",
-			"intents": [
-				{
-					"name": "AMAZON.CancelIntent",
-					"samples": []
-				},
-				{
-					"name": "AMAZON.HelpIntent",
-					"samples": []
-				},
-				{
-					"name": "AMAZON.StopIntent",
-					"samples": []
-				},
-				{
-					"name": "HelloWorldIntent",
-					"slots": [],
-					"samples": [ "hola", "como estás", "di hola mundo", "di hola", "hola mundo" ]
-				},
-				{
-					"name": "AMAZON.NavigateHomeIntent",
-					"samples": []
-				}
-			],
-			"types": []
-		}
-	}
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "testing presentation",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "PagerIntent",
+          "slots": [],
+          "samples": [
+            "slideshow",
+            "tree",
+            "mesquite",
+            "hello",
+            "present",
+            "pager",
+            "show me pager",
+            "show me pager template"
+          ]
+        },
+        {
+          "name": "DeviceIntent",
+          "slots": [],
+          "samples": [
+            "device",
+            "devices",
+            "show me device",
+            "show me device template",
+            "show me devices",
+            "show me devices template"
+          ]
+        },
+        {
+          "name": "AMAZON.MoreIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateSettingsIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NextIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PageUpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PageDownIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PreviousIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollRightIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollDownIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollLeftIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollUpIntent",
+          "samples": []
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "3"
 }
